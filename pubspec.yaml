@@ -1,0 +1,59 @@
+name: kanawa_passenger
+description: KANAWA - App Passageiro (transporte por aplicativo em Angola)
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ─── Estado ───
+  provider: ^6.1.2
+
+  # ─── HTTP / API ───
+  http: ^1.2.2
+  dio: ^5.7.0
+
+  # ─── Segurança ───
+  flutter_secure_storage: ^9.2.2
+
+  # ─── Navegação ───
+  go_router: ^14.6.2
+
+  # ─── Localização / Mapas ───
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.18.1
+  google_maps_flutter_web: ^0.6.3+1
+
+  # ─── UI ───
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.14
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+  # ─── Utilidades ───
+  intl: ^0.19.0
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+
+  # 🔔 Notificações locais (som + vibração)
+  flutter_local_notifications: ^19.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
